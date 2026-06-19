@@ -1,6 +1,15 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
 .env
 .pytest_cache/
 .claude/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
